@@ -34,5 +34,21 @@ namespace Pathfinder2E_Core.DTOResources
 
         //Map 'rules[]'
         public IEnumerable<RulesDTO> Rules { get; set; }
+
+        //Map 'size'
+        public string Size { get; set; }
+
+        //Map 'source.value'
+        public string Source { get; set; }
+
+        //Map 'speed'
+        public int Speed { get; set; }
+
+        //Map 'traits'
+        public TraitsDTO Traits { get; set; }
+
+        //Map 'vision'
+        public string Vision { get; set; }
+
     }
 }
